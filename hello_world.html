@@ -43,7 +43,26 @@
             text-align: center;
         }
         .social-list > li {
+            padding: 1vw;
+            border-radius: 99px;
+            background-color: grey;
             display: inline-block;
+        }
+        .social-list a {
+            text-decoration: none;
+        }
+
+        /* Margin Styling */
+        .margin-box {
+            border: 5px solid #000;
+            padding: 1vh;
+            max-width: 100px; /* Width needs to be defined for margin auto */
+            margin: 20px auto; /* can only center left to right with auto, not vertically */
+        }
+
+        .margin-box img {
+            margin-top: 1vh;
+            width: 100%;
         }
     </style>
     <body>
@@ -85,5 +104,10 @@
                 <a href="test.com"> Link </a>
             </li>
         </ul>
+
+        <div class="margin-box">
+            Centered Box of Kitten
+            <img src="images/kitten.jpg" alt="Kitten"/>
+        </div>
     </body>
 </html>
